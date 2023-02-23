@@ -1,18 +1,17 @@
 //dark model
 const buttonWhite = document.querySelector(".white");
-const buttonDark = document.querySelector(".dark");
+const buttonDark = document.querySelector(".black");
 
 const mainCard = document.querySelector("#main-card");
 
 buttonWhite.addEventListener("click", () => {
    mainCard.style.backgroundColor = "white";
+   buttonDark.classList.remove("hide");
    buttonWhite.classList.add("hide");
-   buttonDark.classList.remove("hide")
 })
 
 buttonDark.addEventListener("click", () => {
-    buttonWhite.classList.remove("hide");
-   buttonDark.classList.add("hide")
+   location.reload()
 
-   alert("oks")
+    
 })
