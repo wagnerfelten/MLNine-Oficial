@@ -55,6 +55,11 @@ body {
     gap: 24px;
 }
 
+video{
+    width: 700px;
+    height: 400px;
+}
+
 h3{
     font-size: 22px;
     line-height: 30px;
@@ -71,7 +76,8 @@ video{
 
 button {
     border: none;
-    background-color: #2e2a2a;
+   
+    cursor: pointer;
 }
 
 button img{
